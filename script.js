@@ -5,6 +5,18 @@ const randomQuoteGenerator = () => {
     return messageArray[i];
 }
 
+const randomAuthor = () => {
+    let authorArray = ["Beyonce", "Obama", "Neil Armstrong", "Donald Trump", "Michael Jordan", "Elon Musk"];
+    let i = Math.floor(Math.random() * authorArray.length);
+    return authorArray[i];
+}
+
+const randomYear = () => {
+    let yearArray = ["2014", "1987", "2020", "1970", "2001", "2008"];
+    let i = Math.floor(Math.random() * yearArray.length);
+    return yearArray[i];
+}
+
 
 const printMotivationalQuote = () => {
     console.log(randomQuoteGenerator());
