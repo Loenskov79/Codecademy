@@ -19,7 +19,7 @@ const randomYear = () => {
 
 
 const printMotivationalQuote = () => {
-    console.log(randomQuoteGenerator());
+    console.log("This is you daily quote: " + randomQuoteGenerator() + " Written by: " + randomAuthor() + " In the year: " + randomYear());
 }
 
 printMotivationalQuote();
